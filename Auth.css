@@ -1,0 +1,70 @@
+.auth-section {
+    min-height: 100vh;
+    margin: 0% auto;
+    background-color: rgb(221, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .auth-container {
+    min-width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .auth-container form{
+    min-width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    display: flex;
+box-shadow: 9px 10px 25px rgba(90, 84, 84, 0.05);
+
+  }
+  .login-logo {
+    width: 25px;
+    height: 30px;
+  }
+  .h{
+    color:  rgb(102, 102, 255);
+  }
+  .auth-container{
+    padding: 10px;
+    width: calc(100% -30px);
+    border: solid 1px black;
+    font-style: italic;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0);
+  }
+  .auth-join{
+    padding: 10px;
+    margin: 10px;
+    
+  }
+  .auth-button{
+    margin-top: 10px ;
+padding: 10px 5px;
+background-color: #009dff;
+border: solid 1px #009dff ;
+color: white;
+border-radius: 5px ;
+cursor: pointer;
+transition: 0.2s;
+font-size: 13px;
+font-weight: 500;
+  }
+  nav-btn:hover{
+    background-color: #018ce3;
+  }
+  .handle-switch-btn{
+    background-color: transparent;
+    color: #018ce3;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
